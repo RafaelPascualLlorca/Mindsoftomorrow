@@ -24,7 +24,7 @@
 #pres {
     top: 30%;
     margin-left: 50%;
-    font-size: 250%;
+    font-size: 300%;
     font-family: "Mulish", sans-serif;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -41,7 +41,7 @@
 }
 
 .tit {
-    font-size: 50px;
+    font-size: 200%;
 }
 
 .txt {
@@ -55,6 +55,7 @@
 #imgder {
     width: 90%;
     height: 90%;
+    margin-right: 15%;
 }
 
 #arttxtiz {
@@ -62,3 +63,32 @@
     margin-right: 5%;
 }
 
+#seccion2 {
+    background-color: rgb(0, 255, 170);
+}
+
+#pt1, #pt2, #flex {
+    display: flex;
+    width: 100%;
+}
+
+.cont {
+    width: 17%;
+    margin: 4%;
+    display: block;
+}
+
+.img {
+    width: 100%;
+}
+
+#txtsec2 {
+    text-align: center;
+    font-size: 250%;
+    padding-top: 5%;
+}
+
+.programs  {
+    text-align: center;
+    font-size: 50%;
+}
