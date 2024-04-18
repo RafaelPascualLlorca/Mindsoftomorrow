@@ -110,10 +110,6 @@
     margin-left: 10%;
 }
 
-#seccion4 {
-    display: flex;
-}
-
 .sec4_1 {
     width: 50%;
     display: flex;
@@ -125,8 +121,8 @@
 
 #seccion5 {
     background-color: rgb(73, 161, 238);
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #txtsec5 {
@@ -159,4 +155,95 @@ footer {
 
 #colf_2 {
     margin-left: 25%;
+}
+
+@media screen and (max-width:1200px ) {
+    #imgder {
+        width: 80%;
+        height: 80%;
+    }
+
+    #imgiz {
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:700px ) {
+
+    #pres {
+        font-size: 100%;
+    }
+
+    #seccion1, #seccion3, #seccion4, footer {
+        display: block;
+    }
+
+    #arttxtiz {
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .artimg {
+        width: 100%;
+    }
+
+    #imgder {
+        width: 100%;
+    }
+
+    #txtsec2 {
+        font-size: 150%;
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #arttxtder {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    #flex {
+        display: block;
+    }
+
+    #pt1, #pt2 {
+        width: 100%;
+    }
+
+    .programs  {
+        font-size: 70%;
+    }
+
+    #seccion3 {
+        display: block;
+    }
+
+    #imgiz {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    
+    #arttxtder {
+        width: 100%;
+    }
+
+    .sec4_1 {
+        width: 100%;
+    }
+
+    #txtsec5 {
+        font-size: 150%;
+    }
+
+    #colf, #sepa {
+        width: 100%;
+    }
+
+    #colf_1 {
+        margin-left: 10%;
+    }
+
 }
