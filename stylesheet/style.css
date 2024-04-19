@@ -183,6 +183,10 @@ footer {
     #txtsec2 {
         font-size: 200%;
     }
+
+    #txtsec5 {
+        font-size: 180%;
+    }
 }
 
 @media screen and (max-width:1000px ) {
@@ -208,6 +212,10 @@ footer {
 
     #txtsec2 {
         font-size: 150%;
+    }
+
+    #txtsec5 {
+        font-size: 160%;
     }
 }
 
